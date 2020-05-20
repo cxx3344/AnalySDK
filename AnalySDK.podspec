@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "AnalySDK", "AnalySDK/**/*.{h,m}"
+  spec.source_files  = "AnalySDK/**/*.{h,m}"
   # spec.exclude_files = "Classes/Exclude"
 
   spec.public_header_files = "AnalySDK/**/*.h"
@@ -116,6 +116,8 @@ Pod::Spec.new do |spec|
   #  Link your library with frameworks, or libraries. Libraries do not include
   #  the lib prefix of their name.
   #
+  
+  spec.frameworks = "Foundation","UIKit"
 
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"

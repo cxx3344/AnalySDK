@@ -14,7 +14,8 @@
 		9B81B4E02474B1C8004800CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B81B4DE2474B1C8004800CB /* LaunchScreen.storyboard */; };
 		9B81B4E32474B1C8004800CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B81B4E22474B1C8004800CB /* main.m */; };
 		9B81B4ED2474B1C8004800CB /* AnalySDKDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B81B4EC2474B1C8004800CB /* AnalySDKDemoTests.m */; };
-		9B81B4FA2474B258004800CB /* AppDelegate+Analyse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B81B4F82474B258004800CB /* AppDelegate+Analyse.m */; };
+		9B81B4FD2474C744004800CB /* UIView+Analyse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B81B4FC2474C744004800CB /* UIView+Analyse.m */; };
+		9B81B5002474C75E004800CB /* UIViewController+Analyse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B81B4FF2474C75E004800CB /* UIViewController+Analyse.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +42,10 @@
 		9B81B4E82474B1C8004800CB /* AnalySDKDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnalySDKDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B81B4EC2474B1C8004800CB /* AnalySDKDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnalySDKDemoTests.m; sourceTree = "<group>"; };
 		9B81B4EE2474B1C8004800CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B81B4F82474B258004800CB /* AppDelegate+Analyse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Analyse.m"; sourceTree = "<group>"; };
-		9B81B4F92474B258004800CB /* AppDelegate+Analyse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Analyse.h"; sourceTree = "<group>"; };
+		9B81B4FB2474C744004800CB /* UIView+Analyse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Analyse.h"; sourceTree = "<group>"; };
+		9B81B4FC2474C744004800CB /* UIView+Analyse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Analyse.m"; sourceTree = "<group>"; };
+		9B81B4FE2474C75E004800CB /* UIViewController+Analyse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Analyse.h"; sourceTree = "<group>"; };
+		9B81B4FF2474C75E004800CB /* UIViewController+Analyse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Analyse.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +113,10 @@
 		9B81B4F72474B258004800CB /* AnalySDK */ = {
 			isa = PBXGroup;
 			children = (
-				9B81B4F82474B258004800CB /* AppDelegate+Analyse.m */,
-				9B81B4F92474B258004800CB /* AppDelegate+Analyse.h */,
+				9B81B4FB2474C744004800CB /* UIView+Analyse.h */,
+				9B81B4FC2474C744004800CB /* UIView+Analyse.m */,
+				9B81B4FE2474C75E004800CB /* UIViewController+Analyse.h */,
+				9B81B4FF2474C75E004800CB /* UIViewController+Analyse.m */,
 			);
 			name = AnalySDK;
 			path = ../../AnalySDK;
@@ -217,10 +222,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B81B4FA2474B258004800CB /* AppDelegate+Analyse.m in Sources */,
+				9B81B5002474C75E004800CB /* UIViewController+Analyse.m in Sources */,
 				9B81B4D82474B1C3004800CB /* ViewController.m in Sources */,
 				9B81B4D22474B1C3004800CB /* AppDelegate.m in Sources */,
 				9B81B4E32474B1C8004800CB /* main.m in Sources */,
+				9B81B4FD2474C744004800CB /* UIView+Analyse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
