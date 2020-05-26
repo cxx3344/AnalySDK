@@ -1,0 +1,27 @@
+{
+  "name": "AnalySDK",
+  "version": "0.0.2",
+  "summary": "A short description of AnalySDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/cxx3344/AnalySDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ZYY": "2893358240@qq.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/cxx3344/AnalySDK.git",
+    "tag": "0.0.2"
+  },
+  "source_files": "AnalySDK/**/*.{h,m}",
+  "public_header_files": "AnalySDK/**/*.h",
+  "frameworks": [
+    "Foundation",
+    "UIKit"
+  ]
+}

@@ -1,0 +1,16 @@
+PODS:
+  - AnalySDK (0.0.2)
+
+DEPENDENCIES:
+  - AnalySDK (from `/Users/farben/.cocoapods/repos/PodSpec/Specs/AnalySDK`)
+
+EXTERNAL SOURCES:
+  AnalySDK:
+    :path: "/Users/farben/.cocoapods/repos/PodSpec/Specs/AnalySDK"
+
+SPEC CHECKSUMS:
+  AnalySDK: fd03793f63dc307bc5123f323d6dd12d586e4101
+
+PODFILE CHECKSUM: 97bebbf8717176591bf3a6a501e299b28b0de48f
+
+COCOAPODS: 1.9.1

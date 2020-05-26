@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		992C7693818B399EE45031FC /* Pods_AnalySDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEED994AA2C736A9AA3C39B3 /* Pods_AnalySDKDemo.framework */; };
 		9B81B4D22474B1C3004800CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B81B4D12474B1C3004800CB /* AppDelegate.m */; };
 		9B81B4D82474B1C3004800CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B81B4D72474B1C3004800CB /* ViewController.m */; };
 		9B81B4DB2474B1C3004800CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B81B4D92474B1C3004800CB /* Main.storyboard */; };
@@ -14,8 +15,10 @@
 		9B81B4E02474B1C8004800CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B81B4DE2474B1C8004800CB /* LaunchScreen.storyboard */; };
 		9B81B4E32474B1C8004800CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B81B4E22474B1C8004800CB /* main.m */; };
 		9B81B4ED2474B1C8004800CB /* AnalySDKDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B81B4EC2474B1C8004800CB /* AnalySDKDemoTests.m */; };
-		9B81B4FD2474C744004800CB /* UIView+Analyse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B81B4FC2474C744004800CB /* UIView+Analyse.m */; };
-		9B81B5002474C75E004800CB /* UIViewController+Analyse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B81B4FF2474C75E004800CB /* UIViewController+Analyse.m */; };
+		9BBA5F49247BA3FD00CFF7FA /* UIViewController+Analyse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBA5F47247BA3FD00CFF7FA /* UIViewController+Analyse.m */; };
+		9BBA5F4A247BA3FD00CFF7FA /* UIView+Analyse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBA5F48247BA3FD00CFF7FA /* UIView+Analyse.m */; };
+		9BBA5F4D247BA48E00CFF7FA /* UIApplication+Analyse.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBA5F4C247BA48E00CFF7FA /* UIApplication+Analyse.m */; };
+		9BBA5F53247BA7C300CFF7FA /* NSObject+Swizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBA5F52247BA7C300CFF7FA /* NSObject+Swizzle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7665310E6EBAEE6D04795675 /* Pods-AnalySDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnalySDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-AnalySDKDemo/Pods-AnalySDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		9B81B4CD2474B1C3004800CB /* AnalySDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnalySDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B81B4D02474B1C3004800CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9B81B4D12474B1C3004800CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -42,10 +46,16 @@
 		9B81B4E82474B1C8004800CB /* AnalySDKDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnalySDKDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B81B4EC2474B1C8004800CB /* AnalySDKDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnalySDKDemoTests.m; sourceTree = "<group>"; };
 		9B81B4EE2474B1C8004800CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B81B4FB2474C744004800CB /* UIView+Analyse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Analyse.h"; sourceTree = "<group>"; };
-		9B81B4FC2474C744004800CB /* UIView+Analyse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Analyse.m"; sourceTree = "<group>"; };
-		9B81B4FE2474C75E004800CB /* UIViewController+Analyse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Analyse.h"; sourceTree = "<group>"; };
-		9B81B4FF2474C75E004800CB /* UIViewController+Analyse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Analyse.m"; sourceTree = "<group>"; };
+		9BBA5F45247BA3FD00CFF7FA /* UIViewController+Analyse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Analyse.h"; sourceTree = "<group>"; };
+		9BBA5F46247BA3FD00CFF7FA /* UIView+Analyse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Analyse.h"; sourceTree = "<group>"; };
+		9BBA5F47247BA3FD00CFF7FA /* UIViewController+Analyse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Analyse.m"; sourceTree = "<group>"; };
+		9BBA5F48247BA3FD00CFF7FA /* UIView+Analyse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Analyse.m"; sourceTree = "<group>"; };
+		9BBA5F4B247BA48E00CFF7FA /* UIApplication+Analyse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Analyse.h"; sourceTree = "<group>"; };
+		9BBA5F4C247BA48E00CFF7FA /* UIApplication+Analyse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Analyse.m"; sourceTree = "<group>"; };
+		9BBA5F51247BA7C300CFF7FA /* NSObject+Swizzle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzle.h"; sourceTree = "<group>"; };
+		9BBA5F52247BA7C300CFF7FA /* NSObject+Swizzle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzle.m"; sourceTree = "<group>"; };
+		A3A05A35BBF561628915ABCD /* Pods-AnalySDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnalySDKDemo.release.xcconfig"; path = "Target Support Files/Pods-AnalySDKDemo/Pods-AnalySDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		EEED994AA2C736A9AA3C39B3 /* Pods_AnalySDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnalySDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				992C7693818B399EE45031FC /* Pods_AnalySDKDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +77,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26223C16E43FC574AFFB88A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7665310E6EBAEE6D04795675 /* Pods-AnalySDKDemo.debug.xcconfig */,
+				A3A05A35BBF561628915ABCD /* Pods-AnalySDKDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3FF390EDB9E8D4A5D00679F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEED994AA2C736A9AA3C39B3 /* Pods_AnalySDKDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9B81B4C42474B1C3004800CB = {
 			isa = PBXGroup;
 			children = (
 				9B81B4CF2474B1C3004800CB /* AnalySDKDemo */,
 				9B81B4EB2474B1C8004800CB /* AnalySDKDemoTests */,
 				9B81B4CE2474B1C3004800CB /* Products */,
+				26223C16E43FC574AFFB88A7 /* Pods */,
+				3FF390EDB9E8D4A5D00679F1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,7 +121,7 @@
 				9B81B4D12474B1C3004800CB /* AppDelegate.m */,
 				9B81B4D62474B1C3004800CB /* ViewController.h */,
 				9B81B4D72474B1C3004800CB /* ViewController.m */,
-				9B81B4F72474B258004800CB /* AnalySDK */,
+				9BBA5F44247BA3FD00CFF7FA /* Cocospod0521 */,
 				9B81B4D92474B1C3004800CB /* Main.storyboard */,
 				9B81B4DC2474B1C8004800CB /* Assets.xcassets */,
 				9B81B4DE2474B1C8004800CB /* LaunchScreen.storyboard */,
@@ -110,16 +140,19 @@
 			path = AnalySDKDemoTests;
 			sourceTree = "<group>";
 		};
-		9B81B4F72474B258004800CB /* AnalySDK */ = {
+		9BBA5F44247BA3FD00CFF7FA /* Cocospod0521 */ = {
 			isa = PBXGroup;
 			children = (
-				9B81B4FB2474C744004800CB /* UIView+Analyse.h */,
-				9B81B4FC2474C744004800CB /* UIView+Analyse.m */,
-				9B81B4FE2474C75E004800CB /* UIViewController+Analyse.h */,
-				9B81B4FF2474C75E004800CB /* UIViewController+Analyse.m */,
+				9BBA5F4B247BA48E00CFF7FA /* UIApplication+Analyse.h */,
+				9BBA5F4C247BA48E00CFF7FA /* UIApplication+Analyse.m */,
+				9BBA5F46247BA3FD00CFF7FA /* UIView+Analyse.h */,
+				9BBA5F48247BA3FD00CFF7FA /* UIView+Analyse.m */,
+				9BBA5F45247BA3FD00CFF7FA /* UIViewController+Analyse.h */,
+				9BBA5F47247BA3FD00CFF7FA /* UIViewController+Analyse.m */,
+				9BBA5F51247BA7C300CFF7FA /* NSObject+Swizzle.h */,
+				9BBA5F52247BA7C300CFF7FA /* NSObject+Swizzle.m */,
 			);
-			name = AnalySDK;
-			path = ../../AnalySDK;
+			path = Cocospod0521;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +162,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9B81B4F12474B1C8004800CB /* Build configuration list for PBXNativeTarget "AnalySDKDemo" */;
 			buildPhases = (
+				AEA29B9F332269FE5075EFCC /* [CP] Check Pods Manifest.lock */,
 				9B81B4C92474B1C3004800CB /* Sources */,
 				9B81B4CA2474B1C3004800CB /* Frameworks */,
 				9B81B4CB2474B1C3004800CB /* Resources */,
@@ -217,16 +251,43 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AEA29B9F332269FE5075EFCC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnalySDKDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9B81B4C92474B1C3004800CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B81B5002474C75E004800CB /* UIViewController+Analyse.m in Sources */,
+				9BBA5F53247BA7C300CFF7FA /* NSObject+Swizzle.m in Sources */,
+				9BBA5F4D247BA48E00CFF7FA /* UIApplication+Analyse.m in Sources */,
 				9B81B4D82474B1C3004800CB /* ViewController.m in Sources */,
 				9B81B4D22474B1C3004800CB /* AppDelegate.m in Sources */,
+				9BBA5F49247BA3FD00CFF7FA /* UIViewController+Analyse.m in Sources */,
 				9B81B4E32474B1C8004800CB /* main.m in Sources */,
-				9B81B4FD2474C744004800CB /* UIView+Analyse.m in Sources */,
+				9BBA5F4A247BA3FD00CFF7FA /* UIView+Analyse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +441,7 @@
 		};
 		9B81B4F22474B1C8004800CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7665310E6EBAEE6D04795675 /* Pods-AnalySDKDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -397,6 +459,7 @@
 		};
 		9B81B4F32474B1C8004800CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3A05A35BBF561628915ABCD /* Pods-AnalySDKDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
